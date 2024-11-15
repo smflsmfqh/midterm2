@@ -1,0 +1,43 @@
+# Python 관련 파일들
+*.pyc
+*.pyo
+*.pyd
+__pycache__/
+*.db
+*.sqlite3
+
+# 가상환경 관련 파일들
+env/
+venv/
+myenv/
+*.env
+
+# Django 관련 파일들
+*.log
+*.pot
+*.py[cod]
+*.swp
+
+# media 폴더는 제외 (업로드된 파일들)
+media/
+
+# static 폴더는 배포 후에 생성된 파일들이므로 제외
+static/
+
+# IDE 관련 파일들 (예: VSCode, PyCharm 등)
+.vscode/
+.idea/
+
+# Django migrations 폴더 제외
+*/migrations/
+
+# settings.py와 관련된 환경 설정 파일 제외
+.env
+
+# pip 설치된 라이브러리 관련 파일들
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Git 관련
+.git/
+
